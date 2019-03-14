@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="
+" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+
+    <link
+   href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'
+   >
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="bg-change" class= "">
+
+    <div class= "sidebar">
+      <h1 class= "sidebar_header">MY FOLDERS</h1>
+      <br>
+       <button value = "create_folder" class= "createFolderButton"> Create Folder </button>
+       <form class="newFolderForm" style =''>
+            <input type="text" name="name" value="" placeholder="Folder Name" class="input-text">
+
+            <div class= "error_message"> </div>
+
+            <input type="submit" name="submit" value= "Create Folder" class="submitFolderButton" style="">
+        </form>
+      <ul class= "folder_list">
+      </ul>
+
+    </div>
+
+    </div>
+
+    <div class= "main">
+        <span data-id= "" class= "username"> </span>
+
+        <div class= "formContainer">
+           <form class="add-note-form" style="">
+              <h3>What's on your mind?</h3>
+
+              <input type="text" name="title" value="" placeholder="Title" class="input-text">
+              <br> <br>
+              <textarea rows= "20" cols="50" placeholder="Begin typing  your note...">  </textarea>
+              <br>
+              <select class="folders">
+              </select>
+              <br>
+              <input type="submit" name="submit" value= "✔"   class="submitBtn" style="">
+              <input type="submit" name="submit" value= "Update Note"   data-id="" class="update" style="">
+            </form>
+          </ul>
+          </div>
+
+          <div class="folder_notes" style ="" >
+            <span class= "folder_span"></span>
+            <ul class="note_previews">
+            <!-- Notes go here -->
+            </ul>
+
+          <div class="deleteFolder"> </div>
+
+          <div class="noteCard" data-id= "">
+      <!-- individual note-card information goes here -->
+          </div>
+        </div>
+    </div>
+    <video class="myVideo" autoplay muted loop>
+      <source src="typing.mp4" type="video/mp4">
+      <source src="typing.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+    </video>
+
+  </body>
+  <script src= "index.js"></script>
+
+</html>

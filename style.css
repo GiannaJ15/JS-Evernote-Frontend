@@ -1,0 +1,199 @@
+body {
+  /* font: 400 100px/1.3 'Oleo Script', Helvetica, sans-serif;
+  color: #2b2b2b;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1); */
+  font-family: 'Futura';
+}
+
+.sidebar {
+    height: 100%;
+    width: 150px;
+    overflow: auto;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: 200;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    color: #3bb78f;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px
+
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  text-align: left;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  position: fixed;
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+/* .body {
+  background-image: url(https://media.giphy.com/media/R6xi8dXsRhIjK/giphy.gif);
+} */
+
+.sidebar_header {
+  font-family: 'Oleo Script';
+  color: #70DBDB;
+  text-align: center;
+}
+
+.myVideo{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  min-height: 100%;
+  z-index: -99;
+  opacity: .75;
+}
+
+.folder_list {
+  text-align: center;
+  margin-left: 5px;
+  padding-left: 2px;
+}
+
+ .note {
+  padding: 4px;
+  /* background-image: url(); */
+}
+
+
+
+.noteCard{
+  padding-top: 10px
+}
+
+
+.notebody {
+   text-align: center;
+  padding: 10px;
+  border: solid;
+  border-radius: 10px;
+  border-color: white;
+  border-width: 2px;
+  background-color: #fff;
+  box-shadow:
+    0 -1px 1px rgba(0,0,0,0.15),
+    0 -10px 0 -5px #eee,
+    0 -10px 1px -4px rgba(0,0,0,0.15),
+    0 -20px 0 -10px #eee,
+    0 -20px 1px -9px rgba(0,0,0,0.15);
+    padding: 30px;
+
+
+}
+
+.deleteFolderButton{
+  border-radius: 10px;
+  border-color: white;
+  background-color: black;
+  color: white;
+  font-family: 'Futura';
+}
+
+.addBtn{
+  border-radius: 10px;
+  border: white;
+  background-color: transparent;
+  /* background-image: linear-gradient(315deg, #3bb78f 0%, #70DBDB 74%); */
+  color: black;
+  font-family: 'Futura';
+  text-decoration: underline;
+}
+
+.edit{
+  border-radius: 10px;
+  border-color: black;
+  background-color: white;
+  text-decoration-color: white;
+  color: black;
+  font-family: 'Futura';
+}
+
+.delete{
+  border-radius: 10px;
+  border-color: black;
+  background-color: white;
+  text-decoration-color: white;
+  color: black;
+  font-family: 'Futura';
+}
+
+.deleteFolder {
+  padding: 20px
+}
+
+.createFolderButton{
+  padding-bottom: 3px;
+  border-radius: 10px;
+  border-color: black;
+  background-color: white;
+  color: black;
+  font-family: 'Futura';
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submitBtn{
+  border-radius: 10px;
+  border-color: white;
+  background-color: black;
+  /* background-image: linear-gradient(315deg, #3bb78f 0%, #70DBDB 74%); */
+  text-decoration-color: white;
+  color: white;
+  font-family: 'Futura';
+}
+
+.add-note-form input{
+  border-radius: 5px;
+  border-color: #70DBDB
+}
+
+.add-note-form textarea{
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: #70DBDB
+}
+
+.newFolderForm {
+  padding-top:20px;
+  justify-content: space-around;
+}
+
+.newFolderForm input {
+  font-family: "Futura";
+  margin-top: 5px;
+  margin-left: 10px;
+  background-color: transparent;
+  color: white;
+}
+
+.submitFolderButton {
+  border: none;
+  cursor: pointer;
+}
+
+.main {
+  margin-left: 40%;
+  margin-right: 30%
+}
